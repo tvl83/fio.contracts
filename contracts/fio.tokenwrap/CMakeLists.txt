@@ -1,4 +1,4 @@
-add_contract(fio.tokenwrap fio.tokenwrap ${CMAKE_CURRENT_SOURCE_DIR}/teleport.cpp)
+add_contract(fio.tokenwrap fio.tokenwrap ${CMAKE_CURRENT_SOURCE_DIR}/fio.tokenwrap.cpp)
 
 target_include_directories(fio.tokenwrap
         PUBLIC
