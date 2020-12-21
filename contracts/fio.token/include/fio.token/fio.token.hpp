@@ -147,8 +147,8 @@ namespace eosio {
 
                     ///TESTING ONLY, this shortens the unlock periods to the specified number of minutes
                      uint32_t daysSinceGrant =  (int)((present_time  - lockiter->timestamp) / 60);
-                     uint32_t firstPayPeriod = 5;
-                     uint32_t payoutTimePeriod = 15;
+                     uint32_t firstPayPeriod = 3;
+                     uint32_t payoutTimePeriod = 3;
 
                     bool ninetyDaysSinceGrant = daysSinceGrant >= firstPayPeriod;
 
